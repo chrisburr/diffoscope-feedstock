@@ -9,7 +9,7 @@ source:
   sha256: 0727b64dd78254e4e53beb2d2541b4f0933b601fa4ca34960d0c9abae5cbb6a9
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
     - python >=3.7
     - python-libarchive-c
     - python-magic
+    - python-tlsh
 
 test:
   commands:
